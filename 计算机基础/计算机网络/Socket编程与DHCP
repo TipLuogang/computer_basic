@@ -1,0 +1,18 @@
+1.socket（IP+Port）
+服务端：创建套接字，绑定套接字，监听套接字，接收&处理信息
+客户端：创建套接字，连接套接字，进行信息发送
+
+
+server.py
+client.py
+
+2.DHCP协议（Dynamic Host Configuration Protocol 动态主机配置协议）
+    DHCP协议是一个局域网协议
+    DHCP是应用UDP协议的应用层协议
+
+    在家，公司，户外不需要IP地址的配置就可以用IP地址
+    --》DHCP提供即插即用联网，
+        临时IP一般是一个内网地址，通过NAT技术进行网络连接
+        租期，可续租
+
+
